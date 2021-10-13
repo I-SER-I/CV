@@ -1,0 +1,36 @@
+.profile {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.profile__content {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.profile__title {
+    position: center;
+    text-align: center;
+}
+
+.profile__text {
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid white;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.profile__quote {
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid white;
+}

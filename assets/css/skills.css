@@ -1,0 +1,32 @@
+.skills {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.skills__title {
+    position: center;
+    text-align: center;
+}
+
+.skills__content {
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills__list {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skills__block {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid white;
+}

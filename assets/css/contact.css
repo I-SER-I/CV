@@ -1,0 +1,21 @@
+.contact {
+    background-color: #333;
+}
+
+.contact__info {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.contact__linktext {
+    color: aquamarine;
+}
+
+.contact__copyright {
+    color: white;
+}
