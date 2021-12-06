@@ -4,9 +4,9 @@ let startTime = 0;
     startTime = (new Date).getTime();
 })();
 
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", () => {
     let endTime = (new Date).getTime();
     let loadTime = endTime - startTime;
     let footer = document.getElementsByClassName('footer')[0];
     footer.innerHTML += '<p class="footer__text">Page load time: ' + loadTime + ' ms</p>';
-}
+})
