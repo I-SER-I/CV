@@ -1,0 +1,72 @@
+.backgammon {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+    align-items: center;
+
+    animation-name: backgammon__color;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
+.backgammon__image {
+    cursor: url("../images/button.png"), auto;
+    animation-name: image__move;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+.backgammon__text {
+    position: relative;
+    top: 100px;
+
+    font-size: 4rem;
+    z-index: 100;
+
+    animation-name: text__move;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes text__move {
+    0% {
+        margin-top: -90vh;
+    }
+    50% {
+        margin-top: 20vh;
+    }
+    100% {
+        margin-top: -90vh;
+    }
+}
+
+@keyframes image__move {
+    0% {
+        margin-left: -10vw;
+    }
+    50% {
+        margin-left: 10vw;
+    }
+    100% {
+        margin-left: -10vw;
+    }
+}
+
+@keyframes backgammon__color {
+    0% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
