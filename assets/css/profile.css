@@ -1,8 +1,10 @@
 .profile {
-    padding: 20px;
-    width: 100%;
     box-sizing: border-box;
     position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile__content {

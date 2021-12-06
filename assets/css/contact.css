@@ -1,23 +1,35 @@
 .contact {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #333;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__content {
+    display: flex;
+    border: 10px solid white;
+}
+
+.contact__send {
+    box-shadow: 0 0 0px 5px white;
+    background: white;
 }
 
 .contact__info {
     max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
     list-style-type: none;
+    flex-direction: column;
 }
 
-.contact__linktext {
-    color: aquamarine;
+.w-100 {
+    width: 100%;
 }
 
-.contact__copyright {
-    color: white;
+.p-4 {
+    padding: 1.5rem;
 }

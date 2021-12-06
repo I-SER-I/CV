@@ -25,3 +25,8 @@
 .nav__link:hover {
     background-color: darkslategrey;
 }
+
+.nav___link__active {
+    color: white;
+    background-color: darkslategrey;
+}

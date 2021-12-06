@@ -1,0 +1,17 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333;
+}
+
+.footer__copyright {
+    color: aquamarine;
+}
+
+.footer__text {
+    justify-content: right;
+    color: aquamarine;
+}

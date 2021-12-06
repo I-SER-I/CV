@@ -1,3 +1,12 @@
+.education{
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .education__title {
     position: center;
     text-align: center;

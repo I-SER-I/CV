@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Sergei Papikian</title>
-
     <link rel="icon" href="assets/icon/favicon.ico">
-    <link rel="stylesheet" href="assets/css/nav.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/info.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
 
-    <link rel="stylesheet" href="assets/css/profile.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/education.css">
 
     <script type="module" src="assets/js/templates.js"></script>
@@ -20,13 +17,21 @@
 
 <body>
 <i_ser_i-header></i_ser_i-header>
-<section class="info">
-    <div class="info__text">
-        <h1 class="info__name">Sergei Papikian</h1>
-        <h3 class="info__stack">.NET Backend Developer</h3>
-        <small class="info__city">Saint-Petersburg, Russia</small>
-    </div>
-    <img src="assets/images/Im.jpg" width="200" height="200" alt="Sergei Papikian" class="info__image">
+<section class="education" id="education">
+    <ul class="education__list">
+        <li class="education__block">
+            <img src="assets/images/376.png" width="200" height="200">
+            <p>High school #376 - 2019</p>
+        </li>
+        <li class="education__block">
+            <img src="assets/images/FLS.png" width="200" height="200">
+            <p>C# course by FLS - 2020</p>
+        </li>
+        <li class="education__block">
+            <img src="assets/images/itmo.png" width="200" height="200">
+            <p>ITMO University - 2023</p>
+        </li>
+    </ul>
 </section>
 <i_ser_i-footer></i_ser_i-footer>
 </body>
