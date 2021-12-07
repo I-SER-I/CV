@@ -14,10 +14,12 @@
 
 .contact__send {
     box-shadow: 0 0 0px 5px white;
+    padding: 1.5rem;
     background: white;
 }
 
 .contact__info {
+    padding: 1.5rem;
     max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
@@ -26,10 +28,12 @@
     flex-direction: column;
 }
 
-.w-100 {
-    width: 100%;
-}
-
-.p-4 {
-    padding: 1.5rem;
+.contact__input {
+    margin: 2px;
+    padding: 10px 10px;
+    background: white;
+    color: black;
+    box-sizing: border-box;
+    max-width: 150px;
+    resize: none;
 }
