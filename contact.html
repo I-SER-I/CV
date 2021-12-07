@@ -2,6 +2,7 @@
 <html lang="ru-en">
 <head>
     <meta charset="UTF-8">
+    <script src="assets/js/pageTimeLoader.js"></script>
     <title>Sergei Papikian</title>
     <link rel="icon" href="assets/icon/favicon.ico">
 
@@ -12,7 +13,6 @@
 
     <script type="module" src="assets/js/templates.js"></script>
     <script type="module" src="assets/js/navigationListener.js"></script>
-    <script type="module" src="assets/js/pageTimeLoader.js"></script>
 </head>
 <body>
 <i_ser_i-header></i_ser_i-header>
@@ -20,74 +20,45 @@
 <section class="contact">
     <div class="contact__content">
         <div class="contact__send">
-            <div class="w-100 p-md-5 p-4">
-                <h3>Let's get in touch</h3>
-                <div class="footer__info">
-                    <p>
-                        <a class="footer__linktext" href="https://t.me/I_SER_I">
-                            <img src="assets/images/telegram.png" alt="Telegram" width="15" height="15">
-                            <strong>Telegram</strong>
-                        </a>
-                    </p>
-                    <p>
-                        <a class="footer__linktext" href="https://github.com/I-SER-I">
-                            <img src="assets/images/github.png" alt="Telegram" width="15" height="15">
-                            <b>GitHub</b>
-                        </a>
-                    </p>
-                    <p>
-                        <a class="footer__linktext" href="https://LinkedIn/I_SER_I">
-                            <img src="assets/images/linkedin.png" alt="LinkedIn" width="15" height="15">
-                            LinkedIn
-                        </a>
-                    </p>
-                </div>
-            </div>
+            <h3>Contact me</h3>
+            <p>
+                <a class="footer__linktext" href="https://t.me/I_SER_I">
+                    <img src="assets/images/telegram.png" alt="Telegram" width="15" height="15">
+                    Telegram
+                </a>
+            </p>
+            <p>
+                <a class="footer__linktext" href="https://github.com/I-SER-I">
+                    <img src="assets/images/github.png" alt="Telegram" width="15" height="15">
+                    GitHub
+                </a>
+            </p>
+            <p>
+                <a class="footer__linktext" href="https://LinkedIn/I_SER_I">
+                    <img src="assets/images/linkedin.png" alt="LinkedIn" width="15" height="15">
+                    LinkedIn
+                </a>
+            </p>
         </div>
         <div class="contact__info">
-            <div class="w-100 p-md-5 p-4">
-                <h3 class="mb-4">Get in touch</h3>
-                <div id="form-message-warning" class="mb-4"></div>
-                <div id="form-message-success" class="mb-4">
-                    Your message was sent, thank you!
+            <h3>Get in touch</h3>
+            <form class="contact__form" action="">
+                <div>
+                    <input class="contact__input" name="name" id="name" placeholder="Name">
                 </div>
-                <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div>
-                                <label class="label" for="name">Full Name</label>
-                                <input type="text" class="form-control" name="name" id="name"
-                                       placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div>
-                                <label class="label" for="email">Email Address</label>
-                                <input type="email" class="form-control" name="email" id="email"
-                                       placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div>
-                                <label class="label" for="subject">Subject</label>
-                                <input type="text" class="form-control" name="subject" id="subject"
-                                       placeholder="Subject">
-                            </div>
-
-                            <div>
-                                <label>Message</label>
-                                <textarea name="message" id="message" cols="30" rows="4"
-                                          placeholder="Message"></textarea>
-                            </div>
-
-                            <div class="form-group">
-                                <input type="submit" value="Send Message" class="btn btn-primary">
-                                <div class="submitting"></div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
+                <div>
+                    <input class="contact__input" name="email" id="email" placeholder="Email">
+                </div>
+                <div>
+                    <input class="contact__input" name="title" id="title" placeholder="Title">
+                </div>
+                <div>
+                    <textarea class="contact__input" name="message" placeholder="Message"></textarea>
+                </div>
+                <div>
+                    <input class="contact__input" type="submit" value="Send Message">
+                </div>
+            </form>
         </div>
     </div>
 </section>

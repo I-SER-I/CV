@@ -23,6 +23,7 @@ class MyHeader extends HTMLElement {
                         <li class="nav__item"><a class="nav__link " href="skills.html">Skills</a></li>
                         <li class="nav__item"><a class="nav__link " href="education.html">Education</a></li>
                         <li class="nav__item"><a class="nav__link " href="contact.html">Contact</a></li>
+                        <li class="nav__item"><a class="nav__link " href="backgammon.html">Вызов великому</a></li>
                     </ul>
                 </nav>
             </header>
